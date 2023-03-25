@@ -6,7 +6,7 @@
 .banner{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(download2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),url(download2.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -49,19 +49,21 @@
 .content{
     width: 100%;
     position: absolute;
-    top: 50%;
+    top: 25%;
     transform: translateY(-50%);
     text-align: center;
     color: #fff;
 }
 .content h1{
-    font-size: 50pxpx;
+    font-size: 75px;
     margin-top: 80px;
 }
 .content p{
     margin: 20px auto;
     font-weight: 100;
     line-height: 25px;
+    font-size: 20px;
+    margin-top: 50px;
 }
 button{
     width: 200px;
