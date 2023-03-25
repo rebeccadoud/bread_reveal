@@ -1,0 +1,30 @@
+<html>
+    <head>
+      <title>Baby Bread</title>
+    <link rel="stylesheet" href="style3.css">
+    </head>
+<body>
+    <div class="Banner">
+        <div class="navbar">
+            <img src="logo3.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Registry</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </div>    
+            <div class="Content">
+                    <h1>Welcome to our gender reveal for Baby Bread!</h1>
+                    <p>Click on Reveal to go through the steps of finding out what we are having.<br>If you alreay know and would like to go to our baby registry click on Registry</p>
+                    </div>
+            <div>
+                <center><iframe src="https://trinket.io/embed/python/6823ea5cfa?outputOnly=true&start=result" width="20%" height="40%" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe></center>
+            </div>
+        <div class="content">
+         <div>
+                <center><button type="button"><span></span>Next Page</button></center>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
