@@ -1,177 +1,137 @@
 <!DOCTYPE html>
 <html>
-<body>
-
-<h2>So... What do you think? Boy or Girl??</h2>
-<h4>Read the following to see predictions based on old wives tales. Then, let us know what you think by filling out the form.</h4>
-
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 25%;
-  padding: 0 10px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 8px;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-height: 600px) {
-  .card {
-    width: 100%;
-    display: block;
-    margin-bottom: 8px;
-  }
-}
-
-/* Style the counter cards */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: center;
-  background-color: #f1f1f1;
-  margin-bottom: 20px;
-}
-.collapsible {
-  background-color: #00BFFF;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
-.active, .collapsible:hover {
-  background-color: #1E90FF;
-}
-
-.collapsible:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
-  font-size: 11px;
-  color: white;
-  float: right;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
-}
-
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
-}
-</style>
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-
+<!--Same banner as Liam's pages -> menu link and logo -->
+    <div class="banner">
+        <div class="navbar">
+            <img src="baguette.png" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Registry</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </div>
+        
+<!-- HEADING-->
+<div class="content1">
+    <h1>So... What do you think? Boy or Girl??</h1>
+    <h3>Read the old wives tale on the left and see its prediction on the right. Make your guess by filling out the form below.</h3>
+    
+</div>
+<!--Rows and columns for the old wives tales collapsibles-->
+<div class="oldwives">
 <div class="row">
   <div class="column">
-      <button type="button" class="collapsible">Old Wives Tale</button>
-    	<div class="content">
-    	<p>Explanation of the old wives tale</p>
+      <button type="button" class="collapsibleG">Chinese Prediction Chart</button>
+    	<div class="contentG">
+    	<p>An ancient Chinese gender chart uses your lunar age and the lunar month you conceived to predict the gender. </p>
     	</div>
   </div>
   <div class="column">
-      <button type="button" class="collapsible">Gender Result</button>
-    <div class="content">
-    	<p>Reason for Rebecca</p>
+      <button type="button" class="collapsibleG">Girl</button>
+    <div class="contentG">
+    	<p>Age: 22, conception month: November</p>
+    </div>
+  </div>        
+   <div class="column">
+      <button type="button" class="collapsibleB">Sickness</button>
+    <div class="contentB">
+    	<p>They say that if you're sick, you're carrying a girl. If you don't really vomit or feel nauseous, it's a boy.</p>
     </div>
   </div>
   <div class="column">
-      <button type="button" class="collapsible">Chinese Prediction Chart</button>
-    <div class="content">
-    	<p>Explanation of the old wives tale</p>
+      <button type="button" class="collapsibleB">Boy</button>
+    <div class="contentB">
+    	<p>Rebecca's had a relatively easy pregnancy. She was hardly nauseous at all during the first trimester and really only threw up after gagging on her toothbrush after brushing her teeth. </p>
+    </div>
+  </div>
+    </div>
+<div class="row">
+  <div class="column">
+      <button type="button" class="collapsibleB">The Linea Nigra</button>
+    	<div class="contentB">
+    	<p>Some women develop a dark line down the center of their belly while pregnant. If the line goes above the belly button, that means it's a boy.</p>
+    	</div>
+  </div>
+  <div class="column">
+      <button type="button" class="collapsibleB">Boy</button>
+    <div class="contentB">
+    	<p>The line definitely extends above Rebecca's belly button.</p>
+    </div>
+  </div>   
+    <div class="column">
+      <button type="button" class="collapsibleG">Cravings</button>
+    <div class="contentG">
+    	<p>If you're craving salty foods, they say you're having a boy. A sweet tooth is linked to a girl.</p>
     </div>
   </div>
   <div class="column">
-      <button type="button" class="collapsible">Gender Result</button>
-    <div class="content">
-    	<p>Reason for Rebecca</p>
+      <button type="button" class="collapsibleG">Girl</button>
+    <div class="contentG">
+    	<p>All Rebecca ever wants is sugar. Cake, candy, brownies, ice cream, fruit, you name it. If it's sweet, she wants it.</p>
     </div>
   </div>
-  
-<div class="row">  
-<div class="column">
-    <div class="card">
-      <button type="button" class="collapsible">Old Wives Tale</button>
-    <div class="content">
-    	<p>Explanation of the old wives tale</p>
     </div>
-  </div>
-  <div class="column">
-      <button type="button" class="collapsible">Gender Result</button>
-    <div class="content">
-    	<p>Reason for Rebecca</p>
-    </div>
-  </div>
-  </div>
-  <div class="column">
-      <button type="button" class="collapsible">Chinese Prediction Chart</button>
-    <div class="content">
-    	<p>Explanation of the old wives tale</p>
-    </div>
-  </div>
-  <div class="column">
-      <button type="button" class="collapsible">Gender Result</button>
-    <div class="content">
-    	<p>Reason for Rebecca</p>
-    </div>
-  </div>
 
 <div class="row">
 <div class="column">
-      <button type="button" class="collapsible">Old Wives Tale</button>
-    <div class="content">
-    	<p>Explanation of the old wives tale</p>
+      <button type="button" class="collapsibleG">Baby's Heartrate</button>
+    <div class="contentG">
+    	<p>Girls tend to have faster heartrates than boys. If baby's heartrate is above 140 bpm, that supposedly means girl. Boys are lower than 140 bpm. </p>
     </div>
   </div>
   <div class="column">
-      <button type="button" class="collapsible">Gender Result</button>
-    <div class="content">
-    	<p>Reason for Rebecca</p>
+      <button type="button" class="collapsibleG">Girl</button>
+    <div class="contentG">
+    	<p>At all our doctor's appointments so far, baby's heartrate has been between 145 and 155 bpm. </p>
     </div>
   </div>
   <div class="column">
-      <button type="button" class="collapsible">Chinese Prediction Chart</button>
-    <div class="content">
-    	<p>Explanation of the old wives tale</p>
+      <button type="button" class="collapsibleB">Pillow Direction</button>
+    <div class="contentB">
+    	<p>If your pillow normally faces north, you're having a boy. A south-facing pillow indicates a girl.</p>
     </div>
   </div>
   <div class="column">
-      <button type="button" class="collapsible">Gender Result</button>
-    <div class="content">
-    	<p>Reason for Rebecca</p>
+      <button type="button" class="collapsibleB">Boy</button>
+    <div class="contentB">
+    	<p>Rebecca's pillow faces northeast.</p>
     </div>
   </div>
-
+    </div>
+    <div class="row">
+  <div class="column">
+      <button type="button" class="collapsibleB">Husband's Weight Gain</button>
+    	<div class="contentB">
+    	<p>If the father of the child is gaining weight, it must be a girl. If he remains the same, that indicates a boy.</p>
+    	</div>
+  </div>
+  <div class="column">
+      <button type="button" class="collapsibleB">Boy</button>
+    <div class="contentB">
+    	<p>Liam has not been gaining any sympathy weight.</p>
+    </div>
+  </div>        
+        <div class="column">
+      <button type="button" class="collapsibleG">Hair Growth</button>
+    <div class="contentG">
+    	<p>Boys supposedly make your body hair grow thicker and faster. If hair growth remains normal, then it's probably a girl.</p>
+    </div>
+  </div>
+  <div class="column">
+      <button type="button" class="collapsibleG">Girl</button>
+    <div class="contentG">
+    	<p>There's been very little change to Rebecca's head hair growth, but she rarely shaves her legs anymore because the hair has just stopped growing. </p>
+    </div>
+  </div>
+</div>
+        </div>
 <script>
-var coll = document.getElementsByClassName("collapsible");
+var coll = document.getElementsByClassName("collapsibleG");
 var i;
 
 for (i = 0; i < coll.length; i++) {
@@ -186,7 +146,37 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 </script>
+<script>
+var coll = document.getElementsByClassName("collapsibleB");
+var i;
 
-</body>
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("activeB");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+ 
+<div class = "picture">
+<h2>This is Baby Bread on March 23, 2023.</h2>    
+<img align = "left" src="breadprofile.jpg">
+</div>
+        
+
+<!-- Google form for people's guesses -->
+<div><center><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf_FWBtglx81g-GinGzCqVgjqh66VnxEpTLX3KVRJEAALQGzA/viewform?embedded=true" width="640" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></center>
+</div>
+
+<div class="content2"> 
+<center><a href="page%203.html"><button class="button1"><span></span>Next Page</button></a></center>
+</div>
+</div>      
+    
 </body>
 </html>
