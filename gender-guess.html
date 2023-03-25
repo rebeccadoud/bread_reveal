@@ -3,7 +3,7 @@
 <body>
 
 <h2>So... What do you think? Boy or Girl??</h2>
-<h4>Read the following old wives tales to see what they think!</h4>
+<h4>Read the following to see predictions based on old wives tales. Then, let us know what you think by filling out the form.</h4>
 
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -53,7 +53,7 @@
   margin-bottom: 20px;
 }
 .collapsible {
-  background-color: #777;
+  background-color: #00BFFF;
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -65,7 +65,19 @@
 }
 
 .active, .collapsible:hover {
-  background-color: #555;
+  background-color: #1E90FF;
+}
+
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 11px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
 .content {
@@ -80,35 +92,27 @@
 
 <div class="row">
   <div class="column">
-    <div class="card">
       <button type="button" class="collapsible">Old Wives Tale</button>
-    <div class="content">
+    	<div class="content">
     	<p>Explanation of the old wives tale</p>
-    </div>
-    </div>
+    	</div>
   </div>
   <div class="column">
-    <div class="card">
       <button type="button" class="collapsible">Gender Result</button>
     <div class="content">
     	<p>Reason for Rebecca</p>
     </div>
-    </div>
   </div>
   <div class="column">
-    <div class="card">
       <button type="button" class="collapsible">Chinese Prediction Chart</button>
     <div class="content">
     	<p>Explanation of the old wives tale</p>
     </div>
-    </div>
   </div>
   <div class="column">
-    <div class="card">
       <button type="button" class="collapsible">Gender Result</button>
     <div class="content">
     	<p>Reason for Rebecca</p>
-    </div>
     </div>
   </div>
   
@@ -119,98 +123,50 @@
     <div class="content">
     	<p>Explanation of the old wives tale</p>
     </div>
-    </div>
   </div>
   <div class="column">
-    <div class="card">
       <button type="button" class="collapsible">Gender Result</button>
     <div class="content">
     	<p>Reason for Rebecca</p>
     </div>
-    </div>
+  </div>
   </div>
   <div class="column">
-    <div class="card">
       <button type="button" class="collapsible">Chinese Prediction Chart</button>
     <div class="content">
     	<p>Explanation of the old wives tale</p>
     </div>
-    </div>
   </div>
   <div class="column">
-    <div class="card">
       <button type="button" class="collapsible">Gender Result</button>
     <div class="content">
     	<p>Reason for Rebecca</p>
-    </div>
     </div>
   </div>
 
 <div class="row">
 <div class="column">
-    <div class="card">
       <button type="button" class="collapsible">Old Wives Tale</button>
     <div class="content">
     	<p>Explanation of the old wives tale</p>
     </div>
-    </div>
   </div>
   <div class="column">
-    <div class="card">
       <button type="button" class="collapsible">Gender Result</button>
     <div class="content">
     	<p>Reason for Rebecca</p>
     </div>
-    </div>
   </div>
   <div class="column">
-    <div class="card">
       <button type="button" class="collapsible">Chinese Prediction Chart</button>
     <div class="content">
     	<p>Explanation of the old wives tale</p>
     </div>
-    </div>
   </div>
   <div class="column">
-    <div class="card">
       <button type="button" class="collapsible">Gender Result</button>
     <div class="content">
     	<p>Reason for Rebecca</p>
-    </div>
-    </div>
-  </div>
-  
-<div class="row">
-<div class="column">
-    <div class="card">
-      <button type="button" class="collapsible">Old Wives Tale</button>
-    <div class="content">
-    	<p>Explanation of the old wives tale</p>
-    </div>
-    </div>
-  </div>
-  <div class="column">
-    <div class="card">
-      <button type="button" class="collapsible">Gender Result</button>
-    <div class="content">
-    	<p>Reason for Rebecca</p>
-    </div>
-    </div>
-  </div>
-  <div class="column">
-    <div class="card">
-      <button type="button" class="collapsible">Chinese Prediction Chart</button>
-    <div class="content">
-    	<p>Explanation of the old wives tale</p>
-    </div>
-    </div>
-  </div>
-  <div class="column">
-    <div class="card">
-      <button type="button" class="collapsible">Gender Result</button>
-    <div class="content">
-    	<p>Reason for Rebecca</p>
-    </div>
     </div>
   </div>
 
