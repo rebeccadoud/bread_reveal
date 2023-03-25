@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>So... What do you think? Boy or Girl??</h2>
+<h4>Read the following old wives tales to see what they think!</h4>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 8px;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-height: 600px) {
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 8px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin-bottom: 20px;
+}
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <button type="button" class="collapsible">Old Wives Tale</button>
+    <div class="content">
+    	<p>Explanation of the old wives tale</p>
+    </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <button type="button" class="collapsible">Gender Result</button>
+    <div class="content">
+    	<p>Reason for Rebecca</p>
+    </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <button type="button" class="collapsible">Chinese Prediction Chart</button>
+    <div class="content">
+    	<p>Explanation of the old wives tale</p>
+    </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <button type="button" class="collapsible">Gender Result</button>
+    <div class="content">
+    	<p>Reason for Rebecca</p>
+    </div>
+    </div>
+  </div>
+  
+<div class="row">  
+<div class="column">
+    <div class="card">
+      <button type="button" class="collapsible">Old Wives Tale</button>
+    <div class="content">
+    	<p>Explanation of the old wives tale</p>
+    </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <button type="button" class="collapsible">Gender Result</button>
+    <div class="content">
+    	<p>Reason for Rebecca</p>
+    </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <button type="button" class="collapsible">Chinese Prediction Chart</button>
+    <div class="content">
+    	<p>Explanation of the old wives tale</p>
+    </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <button type="button" class="collapsible">Gender Result</button>
+    <div class="content">
+    	<p>Reason for Rebecca</p>
+    </div>
+    </div>
+  </div>
+
+<div class="row">
+<div class="column">
+    <div class="card">
+      <button type="button" class="collapsible">Old Wives Tale</button>
+    <div class="content">
+    	<p>Explanation of the old wives tale</p>
+    </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <button type="button" class="collapsible">Gender Result</button>
+    <div class="content">
+    	<p>Reason for Rebecca</p>
+    </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <button type="button" class="collapsible">Chinese Prediction Chart</button>
+    <div class="content">
+    	<p>Explanation of the old wives tale</p>
+    </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <button type="button" class="collapsible">Gender Result</button>
+    <div class="content">
+    	<p>Reason for Rebecca</p>
+    </div>
+    </div>
+  </div>
+  
+<div class="row">
+<div class="column">
+    <div class="card">
+      <button type="button" class="collapsible">Old Wives Tale</button>
+    <div class="content">
+    	<p>Explanation of the old wives tale</p>
+    </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <button type="button" class="collapsible">Gender Result</button>
+    <div class="content">
+    	<p>Reason for Rebecca</p>
+    </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <button type="button" class="collapsible">Chinese Prediction Chart</button>
+    <div class="content">
+    	<p>Explanation of the old wives tale</p>
+    </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <button type="button" class="collapsible">Gender Result</button>
+    <div class="content">
+    	<p>Reason for Rebecca</p>
+    </div>
+    </div>
+  </div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</body>
+</html>
