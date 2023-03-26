@@ -60,9 +60,9 @@ def print_scaffold(guesses, wd): # prints the scaffold
 				print "|	/ \ "
 				print "|________"
 				print "\n"
-				print "The word was %s." %wd
+				print "The word was '%s.'" %wd
 				print "\n"
-				print "\nYOU LOSE! TRY AGAIN!"
+				print "\nYou lost! Try again!"
 				print "\nWould you like to play again, type 1 for yes or 2 for no?"
 				again = str(raw_input("> "))
 				again = again.lower()
@@ -158,6 +158,8 @@ def hangMan():
   						  again = str(raw_input("> "))
   						  if again == "1":
   						    hangMan()
+						  else:
+						    print("Thanks for playing! Click the next page button to continue.")
   						  quit()
   						
   						else:
