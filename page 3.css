@@ -1,26 +1,25 @@
 {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: serif;
 }
 .banner{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.07),rgba(0,0,0,0.07)),url(page3-2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(page3-2.jpg);
     background-size: cover;
     background-position: center;
 }
 .navbar{
     width: 85%;
     margin: auto;
-    padding: 35px 0;
+    padding: 5px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .logo{
-    width: 125px;
-    cursor: pointer;
+    width: 80px;
 }
 .navbar ul li{
     list-style: none;
@@ -37,7 +36,7 @@
     content: '';
     height: 3px;
     width: 0;
-    background: #5a5a5a;
+    background: #8CB7DC;
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -55,13 +54,14 @@
     color: #5a5a5a;
 }
 .content h1{
-    font-size: 50pxpx;
+    font-size: 45px;
     margin-top: 80px;
 }
 .content p{
     margin: 20px auto;
     font-weight: 100;
     line-height: 25px;
+    font-size: 15px;
 }
 button{
     width: 200px;
@@ -78,7 +78,7 @@ button{
     overflow: hidden;
 }
 span{
-    background: #89CFF0;
+    background: #8CB7DC;
     height: 100%;
     width: 0;
     border-radius: 25px;
